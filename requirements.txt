@@ -5,3 +5,15 @@ pandas==2.1.1
 matplotlib==3.8.0
 plotly==5.18.0
 pydeck==0.8.0
+
+# テスト用パッケージ
+pytest==7.4.0
+pytest-cov==4.1.0
+pytest-mock==3.11.1
+
+# 型チェック
+mypy==1.5.1
+
+# コード品質
+flake8==6.1.0
+black==23.7.0
