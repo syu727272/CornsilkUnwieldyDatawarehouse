@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  streamlit-app:
+    build: .
+    container_name: estat-population-app
+    ports:
+      - "8501:8501"
+    volumes:
+      - .:/app
+    env_file:
+      - .env
+    restart: unless-stopped
